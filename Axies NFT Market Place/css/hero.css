@@ -1,0 +1,132 @@
+#hero {
+  min-height: 70vh;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.4rem;
+}
+
+.hero__left--items {
+  color: white;
+}
+
+.hero__left--items h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5.4rem;
+  line-height: 6.8rem;
+  margin-bottom: 3.4rem;
+}
+.hero__left--items p {
+  font-weight: normal;
+  font-size: 1.9rem;
+  line-height: 4.2rem;
+  color: #adadb0;
+  margin-bottom: 3.4rem;
+}
+
+.hero__left--items span {
+  color: var(--secondary-color);
+}
+
+.left--item__btn button {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.left--item__btn button:hover {
+  border-color: var(--secondary-color);
+}
+
+.hero__btn1 {
+  margin-right: 2rem;
+}
+
+.hero__btn1 i {
+  margin-right: 0.8rem;
+}
+
+.hero__btn2 i {
+  margin-right: 0.8rem;
+}
+
+.right--item__img {
+  position: relative;
+}
+
+.blobshape {
+  margin-right: 10rem;
+}
+.axiesimg {
+  position: absolute;
+  left: 14.8rem;
+}
+
+.space {
+  position: absolute;
+  left: 0;
+  bottom: 6.8rem;
+}
+
+.plus1 {
+  position: absolute;
+  left: 43rem;
+  top: 32rem;
+}
+
+.plus2 {
+  position: absolute;
+  left: 35rem;
+  top: 42rem;
+  transform: rotate(150.68deg);
+}
+
+.plus3 {
+  position: absolute;
+  left: 0rem;
+  top: 18rem;
+  transform: rotate(23deg);
+}
+
+.star1 {
+  position: absolute;
+  left: 46rem;
+  top: 38rem;
+  transform: rotate(150.68deg);
+}
+
+.star2 {
+  position: absolute;
+  left: 11rem;
+  top: 26rem;
+  transform: rotate(23deg);
+}
+
+.star3 {
+  position: absolute;
+  left: 6rem;
+  top: 33rem;
+}
+
+.star4 {
+  position: absolute;
+  left: 18rem;
+  top: 33rem;
+}
+
+.star5 {
+  position: absolute;
+  left: 44rem;
+  top: 0rem;
+}
+
+.star6 {
+  position: absolute;
+  left: 42rem;
+  top: 28rem;
+}

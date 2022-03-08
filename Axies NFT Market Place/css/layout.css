@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5142fb;
+  --back-color: #14141f;
+  --dark-color: #343;
+  --accent-color: #d57d00;
+  --secondary-color: #9550e5;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  background: var(--back-color);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  /* margin-right: auto;
+  margin-left: auto; */
+  padding-left: 4.4rem;
+}
+
+.btn {
+  outline: none;
+  font-family: inherit;
+  padding: 1.4rem 3.6rem;
+  border-radius: 10.1rem;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.btn__primary {
+  border: 2px solid #4e3fee;
+}
+
+.btn__gry {
+  border: 2px solid rgba(173, 173, 176, 0.5);
+}
