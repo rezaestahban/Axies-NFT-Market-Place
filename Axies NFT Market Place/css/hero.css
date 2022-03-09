@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4.4rem;
+  margin-top: 5rem;
+  margin-bottom: 12rem;
 }
 
 .hero__left--items {
@@ -15,14 +16,14 @@
 
 .hero__left--items h1 {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 5.4rem;
   line-height: 6.8rem;
   margin-bottom: 3.4rem;
 }
 .hero__left--items p {
-  font-weight: normal;
-  font-size: 1.9rem;
+  font-weight: 400;
+  font-size: 2rem;
   line-height: 4.2rem;
   color: #adadb0;
   margin-bottom: 3.4rem;
@@ -60,17 +61,22 @@
 }
 
 .blobshape {
-  margin-right: 10rem;
+  margin-right: 20rem;
+  filter: drop-shadow(10px -20px 30px #b244dd);
 }
 .axiesimg {
   position: absolute;
-  left: 14.8rem;
+  left: 12.8rem;
+  top: -3.5rem;
+  /* animation: astronaut-movement 10s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running; */
 }
 
 .space {
   position: absolute;
-  left: 0;
-  bottom: 6.8rem;
+  left: 1rem;
+  bottom: 8.8rem;
 }
 
 .plus1 {
@@ -81,8 +87,8 @@
 
 .plus2 {
   position: absolute;
-  left: 35rem;
-  top: 42rem;
+  left: 40rem;
+  top: 33rem;
   transform: rotate(150.68deg);
 }
 
@@ -95,28 +101,28 @@
 
 .star1 {
   position: absolute;
-  left: 46rem;
-  top: 38rem;
+  left: 47rem;
+  top: 13rem;
   transform: rotate(150.68deg);
 }
 
 .star2 {
   position: absolute;
-  left: 11rem;
-  top: 26rem;
+  left: 0rem;
+  top: 15rem;
   transform: rotate(23deg);
 }
 
 .star3 {
   position: absolute;
-  left: 6rem;
-  top: 33rem;
+  left: 55rem;
+  top: 26rem;
 }
 
 .star4 {
   position: absolute;
-  left: 18rem;
-  top: 33rem;
+  left: 56rem;
+  top: 30rem;
 }
 
 .star5 {
@@ -127,6 +133,6 @@
 
 .star6 {
   position: absolute;
-  left: 42rem;
+  left: 58rem;
   top: 28rem;
 }

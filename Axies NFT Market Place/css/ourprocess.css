@@ -1,0 +1,98 @@
+#ourprocess {
+  /* min-height: 35vh; */
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.process__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.process__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  margin-right: 4.4rem;
+  flex: 1;
+}
+
+.item__icon--wallet {
+  padding: 1.5rem 1.4rem;
+  background-color: #5142fb;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  width: 5.2rem;
+}
+
+.item__icon--wallet:hover {
+  cursor: pointer;
+  background-color: #3827fa;
+}
+
+.item__icon--collection {
+  padding: 1.5rem 1.4rem;
+  background-color: #46a433;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  width: 5.2rem;
+}
+
+.item__icon--collection:hover {
+  cursor: pointer;
+  background-color: #30881f;
+}
+
+.item__icon--nft {
+  padding: 1.5rem 1.4rem;
+  background-color: #9835fb;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  width: 5.2rem;
+}
+
+.item__icon--nft:hover {
+  cursor: pointer;
+  background-color: #8827e9;
+}
+
+.item__icon--bookmark {
+  padding: 1.5rem 1.4rem;
+  background-color: #df4949;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  width: 5.2rem;
+}
+
+.item__icon--bookmark:hover {
+  cursor: pointer;
+  background-color: #d33737;
+}
+
+.item h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.item h3:hover {
+  cursor: pointer;
+}
+
+.item p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+  color: #adadb0;
+}
+
+.item p:hover {
+  cursor: pointer;
+}

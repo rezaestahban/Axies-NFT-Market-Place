@@ -15,6 +15,10 @@
   margin-right: 6.6rem;
 }
 
+.navbar__logo img:hover {
+  cursor: pointer;
+}
+
 .navbar__nav {
   display: flex;
   justify-content: space-between;
