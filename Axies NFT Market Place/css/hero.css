@@ -12,6 +12,7 @@
 
 .hero__left--items {
   color: white;
+  z-index: 50;
 }
 
 .hero__left--items h1 {
@@ -56,8 +57,27 @@
   margin-right: 0.8rem;
 }
 
-.right--item__img {
+.hero__right--items {
   position: relative;
+}
+
+.right--item__img {
+  animation: moveingimg 3s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.right--item__img1 {
+  animation: moveingimg1 10s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  z-index: 40;
+}
+
+.right--item__img2 {
+  animation: moveingimg2 20s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 .blobshape {
@@ -68,40 +88,65 @@
   position: absolute;
   left: 12.8rem;
   top: -3.5rem;
-  /* animation: astronaut-movement 10s linear alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running; */
+}
+
+@keyframes moveingimg {
+  0% {
+    transform: translateY(-0.8rem);
+  }
+  100% {
+    transform: translateY(0.8rem);
+  }
+}
+
+@keyframes moveingimg1 {
+  0% {
+    transform: translateY(3rem);
+  }
+  100% {
+    transform: translateY(-3rem);
+  }
+}
+
+@keyframes moveingimg2 {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(10rem);
+  }
 }
 
 .space {
   position: absolute;
   left: 1rem;
   bottom: 8.8rem;
+  z-index: 3;
 }
 
 .plus1 {
   position: absolute;
-  left: 43rem;
-  top: 32rem;
+  left: -39rem;
+  top: -12rem;
 }
 
 .plus2 {
   position: absolute;
-  left: 40rem;
-  top: 33rem;
+  left: 0rem;
+  top: -21rem;
   transform: rotate(150.68deg);
 }
 
 .plus3 {
   position: absolute;
-  left: 0rem;
-  top: 18rem;
+  left: -15rem;
+  top: -18rem;
   transform: rotate(23deg);
 }
 
 .star1 {
   position: absolute;
-  left: 47rem;
+  left: 0rem;
   top: 13rem;
   transform: rotate(150.68deg);
 }
@@ -109,30 +154,30 @@
 .star2 {
   position: absolute;
   left: 0rem;
-  top: 15rem;
+  top: -15rem;
   transform: rotate(23deg);
 }
 
 .star3 {
   position: absolute;
-  left: 55rem;
-  top: 26rem;
+  left: -9rem;
+  top: -26rem;
 }
 
 .star4 {
   position: absolute;
-  left: 56rem;
-  top: 30rem;
+  left: 5rem;
+  top: -10rem;
 }
 
 .star5 {
   position: absolute;
-  left: 44rem;
-  top: 0rem;
+  left: 2rem;
+  top: -5rem;
 }
 
 .star6 {
   position: absolute;
-  left: 58rem;
-  top: 28rem;
+  left: -5rem;
+  top: -20rem;
 }
