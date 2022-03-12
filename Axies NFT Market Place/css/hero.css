@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 16rem;
   margin-bottom: 12rem;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .blobshape {
-  margin-right: 20rem;
+  margin-right: 12rem;
   filter: drop-shadow(10px -20px 30px #b244dd);
 }
 .axiesimg {

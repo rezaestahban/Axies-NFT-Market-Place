@@ -1,5 +1,11 @@
 #header {
-  min-height: 15vh;
+  /* min-height: 15vh; */
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #14141f;
+  margin-bottom: 10rem;
+  width: 100%;
 }
 
 .navbar {

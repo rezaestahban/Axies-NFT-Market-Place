@@ -1,6 +1,30 @@
-/* @media (min-width: 1300px) {
+/* @media only screen and (max-width: 768px) {
+  .navbar__icon {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .nav__list {
+    margin-right: 4rem;
+  }
+  .navbar__search {
+    margin-left: 4.7rem;
+  }
+  .navbar__wallet button {
+    padding: 0.5rem 6rem;
+    margin-right: 4.4rem;
+  }
+  .hero__right--items {
+    margin-left: 13rem;
+  }
+} */
+/* 
+@media only screen and (min-width: 1530px) {
+  html {
+    width: 1530px;
+  }
   .container {
-    max-width: 1300px;
-    align-items: center;
+    margin-left: 30%;
   }
 } */

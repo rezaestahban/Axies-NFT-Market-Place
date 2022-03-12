@@ -1,0 +1,143 @@
+.liveactions {
+  display: flex;
+  flex-direction: column;
+}
+
+.liveactions__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.liveactions__title .title1 {
+  color: white;
+  margin-left: 4.4rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.liveactions__title .title2 a {
+  color: white;
+  margin-right: 4.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.liveactions__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  background-color: #343444;
+  padding: 2rem 2rem 1.2rem 2rem;
+  border-radius: 28px;
+  margin-left: 4.4rem;
+  margin-right: 4.4rem;
+  margin-bottom: 11.3rem;
+}
+
+.box:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+
+.box__img img {
+  width: 27.4rem;
+  border-radius: 31px;
+}
+
+.box__title {
+  margin-top: 1.9rem;
+  margin-bottom: 1.7rem;
+}
+
+.box__title a {
+  color: white;
+
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.box__seller {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.box__seller--icon {
+  display: flex;
+}
+
+.seller--icon img {
+  width: 4.3rem;
+  border-radius: 15px;
+  margin-right: 1.2rem;
+}
+
+.seller--creator p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #adadb0;
+}
+
+.seller--creator a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.box__seller--bsc span {
+  color: white;
+  background-color: #5142fb;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.box__seller--bsc span:hover {
+  background-color: #3c2cf0;
+}
+
+.box hr {
+  border-color: #242431;
+  height: 2px;
+  margin-bottom: 1.2rem;
+}
+
+.box__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.box__price--eth p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #adadb0;
+}
+
+.box__price--eth h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.box__price--eth span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  color: #adadb0;
+}
+.box__price--like {
+  background-color: #14141f;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+}
