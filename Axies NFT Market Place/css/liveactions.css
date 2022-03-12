@@ -38,7 +38,8 @@
   border-radius: 28px;
   margin-left: 4.4rem;
   margin-right: 4.4rem;
-  margin-bottom: 11.3rem;
+  margin-bottom: 8.3rem;
+  width: 31.5rem;
 }
 
 .box:hover {
@@ -74,7 +75,7 @@
 }
 
 .seller--icon img {
-  width: 4.3rem;
+  width: 4.3rem !important;
   border-radius: 15px;
   margin-right: 1.2rem;
 }

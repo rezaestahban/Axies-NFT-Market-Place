@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axies NFT Market Place</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+   <link rel="stylesheet" href="../css/owl.carousel.css">
+   <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+  
 
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/navbar.css">
@@ -183,7 +184,7 @@
               <a href="#">EXPLORE MORE</a>
             </div>
           </div>
-          <div class="liveactions__box">
+          <div id="liveactions_slider" class="liveactions__box">
             <div class="box box__item1">
               <div class="box__img">
                 <img src="../img/03_Live Auctions/card-item8.jpg" alt="nft">
@@ -321,6 +322,74 @@
               </div>
              </div>
 
+            <div class="box box__item5">
+              <div class="box__img">
+                <img src="../img/03_Live Auctions/image-box-241.jpg" alt="nft">
+              </div>
+              <div class="box__title">
+                <a href="#">“Hamlet Contemplates Yorick’s...</a>
+              </div>
+              <div class="box__seller">
+                <div class="box__seller--icon">
+                  <div class="seller--icon">
+                    <img src="../img/04_Top Seller/avt-5.jpg" alt="avatar">
+                  </div>
+                  <div class="seller--creator">
+                    <p>Creator</p>
+                    <a href="#">SalvadorDali</a>
+                  </div>
+                </div>
+                <div class="box__seller--bsc">
+                  <span>BSC</span>
+                </div>
+              </div>  
+              <hr>
+              <div class="box__price">
+                <div class="box__price--eth">
+                  <p>Current Bid</p>
+                  <h3>4.89 ETH<span>= $12.246</span></h3>
+                </div>
+                <div class="box__price--like">
+                  <i class="fa-regular fa-heart"></i>
+                  <span>100</span>
+                </div>
+              </div>
+             </div>
+
+            <div class="box box__item6">
+              <div class="box__img">
+                <img src="../img/03_Live Auctions/image-box-44.jpg" alt="nft">
+              </div>
+              <div class="box__title">
+                <a href="#">“Hamlet Contemplates Yorick’s...</a>
+              </div>
+              <div class="box__seller">
+                <div class="box__seller--icon">
+                  <div class="seller--icon">
+                    <img src="../img/04_Top Seller/avt-6.jpg" alt="avatar">
+                  </div>
+                  <div class="seller--creator">
+                    <p>Creator</p>
+                    <a href="#">SalvadorDali</a>
+                  </div>
+                </div>
+                <div class="box__seller--bsc">
+                  <span>BSC</span>
+                </div>
+              </div>  
+              <hr>
+              <div class="box__price">
+                <div class="box__price--eth">
+                  <p>Current Bid</p>
+                  <h3>4.89 ETH<span>= $12.246</span></h3>
+                </div>
+                <div class="box__price--like">
+                  <i class="fa-regular fa-heart"></i>
+                  <span>100</span>
+                </div>
+              </div>
+             </div>
+
             </div> 
           </div>
         </section>
@@ -330,5 +399,23 @@
     <footer>
 
     </footer>
+
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+
+    <script>
+      var liveactionsSL = $('#liveactions_slider');
+    
+
+      liveactionsSL.owlCarousel ({
+        items:4 ,
+        loop: true ,
+        autoplay: true ,
+        autoplayTimeout: 3000,
+
+      });
+
+    </script>
+
 </body>
 </html>
