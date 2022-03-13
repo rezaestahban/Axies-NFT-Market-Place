@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 .topseller__bottom {
@@ -42,6 +43,20 @@
 
 .topseller__avatar img:hover {
   cursor: pointer;
+}
+
+.topseller__avatar i {
+  color: white;
+  padding: 0.5rem 0.6rem;
+  position: absolute;
+  background-color: #1948e2;
+  border-radius: 50%;
+  bottom: 0;
+  left: 7.2rem;
+}
+
+.topseller__text {
+  margin-left: 2rem;
 }
 
 .topseller__text a {

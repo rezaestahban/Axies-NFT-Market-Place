@@ -1,0 +1,64 @@
+.todays__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.4rem;
+  margin-bottom: 3.2rem;
+  margin-left: 4.4rem;
+}
+
+.todays__title .title1 {
+  color: white;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.todays__title .title2 a {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--secondary-color);
+  margin-right: 9.4rem;
+}
+
+.todays__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-left: 4.4rem;
+  margin-right: 4.4rem;
+}
+
+.todays__filter--left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todays__btn {
+  margin-right: 1rem;
+}
+
+.todays__btn button {
+  color: white;
+}
+
+.todays__btn button i {
+  margin-right: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.todays__box--top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 4.4rem; */
+}
+
+.todays__box--bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 4.4rem; */
+}
