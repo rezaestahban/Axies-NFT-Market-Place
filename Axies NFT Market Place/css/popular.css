@@ -1,0 +1,138 @@
+/* .popular {
+  display: flex;
+  flex-direction: column;
+} */
+
+.popular__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.popular__title .title1 {
+  color: white;
+  margin-left: 4.4rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.popular__title .title2 a {
+  color: white;
+  margin-right: 4.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.popular__boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular__box {
+  background-color: #343444;
+  padding: 1.9rem;
+  border-radius: 28px;
+  margin-left: 4.4rem;
+  margin-right: 4.4rem;
+  margin-bottom: 8.3rem;
+  width: 43.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.popular__box:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+
+.popular__box--topimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.popular__box--topimg .topimg__item1 img {
+  width: 19.6rem;
+  border-radius: 12px;
+  margin-right: 0.9rem;
+}
+
+.popular__box--topimg .topimg__item2 img {
+  width: 19.6rem;
+  border-radius: 12px;
+}
+
+.popular__box--bottomimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.7rem;
+}
+
+.popular__box--bottomimg .bottomimg img {
+  width: 12.5rem;
+  border-radius: 12px;
+}
+
+.popular__box--seller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seller__avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.seller__avatar--img img {
+  width: 6.2rem;
+  border-radius: 21px;
+}
+
+.seller__avatar--img i {
+  color: white;
+  padding: 0.5rem 0.6rem;
+  position: absolute;
+  background-color: #1948e2;
+  border-radius: 50%;
+  bottom: 0;
+  left: 4.2rem;
+}
+
+.seller__avatar--text {
+  color: white;
+  margin-left: 1rem;
+}
+
+.seller__avatar--text a {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.seller__avatar--text p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #adadb0;
+  margin-top: 0.5rem;
+}
+
+.seller__avatar--text p span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.seller__like {
+  background-color: #14141f;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  color: white;
+}

@@ -40,6 +40,7 @@
   margin-right: 4.4rem;
   margin-bottom: 8.3rem;
   width: 31.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .box:hover {
