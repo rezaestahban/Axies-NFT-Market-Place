@@ -1,7 +1,6 @@
-/* .popular {
-  display: flex;
-  flex-direction: column;
-} */
+#popular {
+  margin-right: 4.4rem;
+}
 
 .popular__title {
   display: flex;
