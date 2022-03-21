@@ -7,6 +7,7 @@
   margin: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 :root {
@@ -43,10 +44,10 @@ a {
 }
 
 .container {
-  width: 100%;
-  /* margin-right: auto;
-  margin-left: auto; */
-  padding-left: 4.4rem;
+  /* width: 100%; */
+  margin-right: 2rem;
+  margin-left: 2rem;
+  /* padding-left: 4.4rem; */
 }
 
 .btn {

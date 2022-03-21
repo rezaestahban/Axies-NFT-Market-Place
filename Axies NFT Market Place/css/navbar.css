@@ -4,31 +4,25 @@
   top: 0;
   z-index: 99;
   background-color: #14141f;
-  margin-bottom: 10rem;
   width: 100%;
+  border-bottom: 2px solid #292933ef;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   color: white;
-  margin-top: 1.6rem;
   align-items: center;
+  padding: 1rem 0;
 }
 
 .navbar__logo img {
-  width: 12.6rem;
+  height: 4rem;
   margin-right: 6.6rem;
 }
 
 .navbar__logo img:hover {
   cursor: pointer;
-}
-
-.navbar__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .nav__lists {
@@ -40,7 +34,7 @@
 
 .nav__list a {
   color: white;
-  margin-right: 4.4rem;
+  margin-right: 2.5rem;
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.4s ease;
@@ -52,15 +46,19 @@
 }
 
 .nav__list a i {
-  margin-left: 0.5rem;
   font-size: 1.2rem;
 }
 
-.navbar__search {
-  margin-left: 14.7rem;
-  margin-right: 3.4rem;
-  font-size: 2rem;
-  font-weight: 300;
+.right__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__search i {
+  font-size: 1.6rem;
+  color: white;
+  margin-right: 2.5rem;
 }
 
 .navbar__search:hover {
@@ -71,8 +69,7 @@
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
-  padding: 1.4rem 3.4rem;
-  margin-right: 8.7rem;
+  margin-right: 2.5rem;
 }
 
 .navbar__wallet button:hover {
@@ -102,7 +99,7 @@
   cursor: pointer;
 }
 
-.navbar__icon--moon img {
+.navbar__icon--item img {
   margin-right: 1.3rem;
   background: #343444;
   padding: 0.9rem 0.9rem 1rem 1rem;
@@ -110,7 +107,7 @@
   align-items: center;
 }
 
-.navbar__icon--moon img:hover {
+.navbar__icon--item img:hover {
   background: #3d3d4d;
   cursor: pointer;
 }
