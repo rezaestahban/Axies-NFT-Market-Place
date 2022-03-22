@@ -11,22 +11,56 @@
 
   
 
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/hero.css">
-    <link rel="stylesheet" href="../css/media-queries.css">
-    <link rel="stylesheet" href="../css/ourprocess.css">
-    <link rel="stylesheet" href="../css/liveactions.css">
-    <link rel="stylesheet" href="../css/popular.css">
-    <link rel="stylesheet" href="../css/topseller.css">
-    <link rel="stylesheet" href="../css/today.css">
-    <link rel="stylesheet" href="../css/footer.css">
-
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="./css/ourprocess.css">
+    <link rel="stylesheet" href="./css/liveactions.css">
+    <link rel="stylesheet" href="./css/popular.css">
+    <link rel="stylesheet" href="./css/topseller.css">
+    <link rel="stylesheet" href="./css/today.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/stickmenu.css">
+    <link rel="stylesheet" href="./css/signin.css">
 
 
 
 </head>
 <body>
+  <div class="signin">
+    <div class="signin_box">
+        <form action="#">
+            <div class="signin__box--head">
+                <h3>Sign in</h3>
+                <span id="close__signin--box">CLOSE</span>
+            </div>
+            <hr>
+            <div class="signin__box--section">
+                <div class="input__group">
+                    <label for="username">
+                        <i class="fas fa-user-check"></i>
+                        User name
+                    </label>
+                    <input type="text" id="username__login--box" name="username" placeholder="Enter your username">
+                </div>
+                <div class="input__group">
+                    <label for="password">
+                        <i class="fas fa-user-lock"></i>
+                        Password
+                    </label>
+                    <input type="password" id="password__login--box" name="password" placeholder="Enter your password">
+                </div>
+            </div>
+            <div class="signin__box--footer">
+                <button class="btn btn__primary" type="submit"><span class=" text__button">Sign in</span></button>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
     <header id="header">
         <div class="container">
             <nav class="navbar">
@@ -76,7 +110,7 @@
                   </div>
                   <div class="navbar__icon">
                       <div class="navbar__icon--item">
-                        <a href="#">
+                        <a href="#" id="signin__openbox">
                           <img src="../img/01_header/user.png" alt="user icon">
                         </a>
                       </div>
@@ -99,7 +133,7 @@
               <div class="hero__wrapper">
                 <div class="hero__left--items">
                   <h1>
-                    WDiscover, and collect<br/>
+                    Discover, and collect<br/>
                     extraordinary<br/><span>Monster</span> NFTs
                   </h1>
                   <p>Marketplace for Moster Character Collectons Non Fungible Token NFTs</p>
@@ -988,6 +1022,28 @@
           </div>
         </section>
         
+        <section class="stick__menu">
+            <div class="stick__menu--items">
+              <div class="stick__menu--twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="stick__menu--facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="stick__menu--telegram">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+              <div class="stick__menu--youtube">
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <div class="stick__menu--instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="stick__menu--discords">
+                <i class="fa-brands fa-discord"></i>
+              </div>
+            </div>
+        </section>
     </main>
 
     <footer id="footer">
@@ -1075,6 +1131,22 @@
         autoplay: true ,
         autoplayTimeout: 3000,
 
+      });
+
+
+      $('#signin__openbox').click(function() {
+            $('.signin').addClass('signin__show');
+            $('body').addClass('stop_scrolling');
+        });
+      $('#close__signin--box').click(function(){
+          $('.signin').removeClass('signin__show');
+          $('body').removeClass('stop_scrolling');
+      });
+      $('.signin').click(function(e){
+          if (e.target !== this)
+          return;
+          $('.signin').removeClass('signin__show');
+          $('body').removeClass('stop_scrolling');
       });
 
     </script>
